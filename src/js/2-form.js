@@ -14,7 +14,6 @@ message.value = formData.message;
 email.value = formData.email;
 
 form.addEventListener("input", (evt) => {
-  console.log(evt.target.type);
   if (evt.target.type == 'textarea') {
     formData.message = evt.target.value;
   } else if (evt.target.type == 'email') {
