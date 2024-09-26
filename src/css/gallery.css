@@ -1,0 +1,26 @@
+/* Gallery Sections Style */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1128px;
+  margin: 24px auto;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: 360px;
+  height: 200px;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: scale 0.2s ease;
+}
+
+.gallery-image:hover {
+  scale: 1.1;
+}
